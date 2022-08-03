@@ -291,3 +291,8 @@ a{
     border: none #30303B;
     border-radius: 0.5em;
 }
+
+footer {
+    position: absolute;
+    bottom: 0px;
+}
