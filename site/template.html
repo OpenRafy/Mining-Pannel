@@ -33,7 +33,7 @@
           <a class='dropdown-arrow' class="menu-button-text">Panels</a>
         </div>
         <ul class='sub-menus'>
-          <li class='sub-menus-content' onClick='multiTogg("portainer", "site", true)'>
+          <li class='sub-menus-content' onClick='multiTogg("hive", "site", true)'>
             <a id="portainerMenu" class="menu-button-text">HiveOS</a>
           </li>
           <li class='sub-menus-content' onClick='multiTogg("proxy", "site", true)'>
@@ -42,7 +42,7 @@
         </ul>
       </li>
 
-      <li class='li-entry' onClick='multiTogg("ssh", "site", true)'>
+      <li class='li-entry' onClick='multiTogg("vnc", "site", true)'>
         <div class="menu-entry">
           <img src="page2.png" alt="" class="page">
           <a id="sshMenu" class="menu-button-text">VNC Connect</a>
@@ -84,9 +84,9 @@
       <iframe src="ProxyHttpOrHttps://ProxyIp:ProxyPort"></iframe>
     </div>
 
-    <div id="VNC Connect" class="showClass">
+    <div id="vnc" class="showClass">
       <img src="iframe_bg.png" alt="iframe background">
-      <iframe src="WebSshHttpOrHttps://WebSshIp:WebSshPort"></iframe>
+      <iframe src="https://192.168.1.38:4200/"></iframe>
     </div>
     
     <div id="coin360" class="showClass">
